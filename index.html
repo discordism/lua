@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Letter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-image" id="background"></div>
+    <div class="center-container">
+        <p class="love-text">I love you</p>
+        <div class="buttons">
+            <button id="yesBtn">Yes</button>
+            <button id="noBtn">No</button>
+        </div>
+    </div>
+
+    <video id="video" width="100%" controls style="display:none;">
+        <source src="your-video.mp4" type="video/mp4"> <!-- Replace with your video file -->
+        Your browser does not support the video tag.
+    </video>
+
+    <canvas id="loveCanvas"></canvas>
+    <audio id="yesSound" src="yes-sound.mp3"></audio>
+    <audio id="noSound" src="no-sound.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
